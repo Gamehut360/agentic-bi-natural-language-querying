@@ -15,6 +15,7 @@
 - 🐼 **Pandas** 👉 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) [🌐Official Website](https://pandas.pydata.org/)  [📘 Documentation](https://pandas.pydata.org/docs/)
   
 - 📊 **Scikit-Learn** 👉 ![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+[🌐Official Website](https://scikit-learn.org/)  [📘 Documentation](https://scikit-learn.org/stable/)
   
 - 🚀 **XGBoost** 👉 ![XGBoost](https://img.shields.io/badge/XGBoost-DC2626?style=for-the-badge&logo=apache&logoColor=white)
 
