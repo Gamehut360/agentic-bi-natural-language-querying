@@ -10,7 +10,7 @@
 
 # 10 Python AI libraries
 
-- 🔢 **NumPy** 👉 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) [🌐Official Website](https://numpy.org/) [📘 Docs: ](https://numpy.org/doc/)
+- 🔢 **NumPy** 👉 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) [🌐Official Website](https://numpy.org/) [📘 Documentation](https://numpy.org/doc/)
 
 - 🐼 **Pandas** 👉 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
   
