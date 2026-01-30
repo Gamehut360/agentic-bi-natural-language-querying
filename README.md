@@ -18,7 +18,7 @@
 [🌐Official Website](https://scikit-learn.org/)  [📘 Documentation](https://scikit-learn.org/stable/)
   
 - 🚀 **XGBoost** 👉 ![XGBoost](https://img.shields.io/badge/XGBoost-DC2626?style=for-the-badge&logo=apache&logoColor=white)
-
+[Official site & docs](https://xgboost.readthedocs.io/en/latest/)
 - ⚡ **LightGBM** 👉 ![LightGBM](https://img.shields.io/badge/LightGBM-16A34A?style=for-the-badge&logo=leaflet&logoColor=white)
 
 - 🧠 **TensorFlow** 👉 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
