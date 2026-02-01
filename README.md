@@ -109,19 +109,73 @@ The main workspace.
 - **Dynamic Dashboard:** Charts (Bar, Line, Pie) render automatically based on data type.
 - **Reasoning Engine:** View the "Why" behind the answer (Show SQL & Thinking).
 
-### **Tab 2: 🛠️ Tech Stack & Specs**
+<img width="1901" height="800" alt="image" src="https://github.com/user-attachments/assets/8041727b-91a5-4d5b-9dd3-fcd43e96cc96" />
+<img width="1611" height="747" alt="image" src="https://github.com/user-attachments/assets/8329a070-4c80-4cbc-bea5-11ac0456dce8" />
+<img width="1614" height="761" alt="image" src="https://github.com/user-attachments/assets/d574821f-7f0f-472b-8027-df0ce08f0ea8" />
+<img width="1611" height="738" alt="image" src="https://github.com/user-attachments/assets/53db7bee-085d-43a2-af8a-07e2e77fce9d" />
+<img width="1654" height="719" alt="image" src="https://github.com/user-attachments/assets/e64393d7-89fb-4f54-841b-ab1736387a5b" />
+<img width="1601" height="672" alt="image" src="https://github.com/user-attachments/assets/1e8f1b5a-c27e-4120-b25e-229f46c2dc3e" />
+<img width="1652" height="788" alt="image" src="https://github.com/user-attachments/assets/2a41bab2-7724-4286-bfda-6be0dbb97447" />
+<img width="1657" height="695" alt="image" src="https://github.com/user-attachments/assets/57be8f4b-f19c-4e4d-a1c7-a7b4be6995bc" />
+<img width="1598" height="798" alt="image" src="https://github.com/user-attachments/assets/f375b831-e7f8-47b2-a597-5e11e7f136af" />
+<img width="1629" height="748" alt="image" src="https://github.com/user-attachments/assets/74e19f7c-9ce5-4dab-9cbb-4d77c0d5abad" />
+<img width="1654" height="780" alt="image" src="https://github.com/user-attachments/assets/3327361b-57aa-400d-a55f-20af7bc23889" />
+
+### **Tab 2:ℹ️ About Project**
+-  Project Vision & Mission : Agentic BI SaaS is an enterprise-grade Business Intelligence platform powered by Agentic AI. Users can ask business questions in plain English, and the system intelligently converts them into trusted, governed, explainable insights.
+- To democratize data access within enterprises, reducing the dependency on data analyst teams for routine reporting.
+- 🚀 AI Analyst , 🧠 Long-Term Memory ,🔐 Enterprise Gov
+- In simple words: This system replaces manual BI dashboards with an AI analyst that remembers, learns, and scales securely.
+
+<img width="1892" height="770" alt="image" src="https://github.com/user-attachments/assets/d16afa94-7b4e-4ca0-8ec6-771691639f3b" />
+<img width="1602" height="760" alt="image" src="https://github.com/user-attachments/assets/2f8a7c52-2c1c-4941-a237-487eb299b6fd" />
+<img width="1629" height="672" alt="image" src="https://github.com/user-attachments/assets/7d2b87bd-fa14-4120-b36e-6681c056b8fb" />
+<img width="1599" height="647" alt="image" src="https://github.com/user-attachments/assets/3e7ebb91-8f28-4549-a929-cd38e4aac089" />
+<img width="1548" height="704" alt="image" src="https://github.com/user-attachments/assets/68d0d9db-8a6a-47be-8fdf-13951be5b5fc" />
+<img width="1611" height="725" alt="image" src="https://github.com/user-attachments/assets/df0963b9-0f28-4bba-93bb-da59e2be5c1a" />
+
+### **Tab 3: 🛠️ Tech Stack & Specs**
 Detailed documentation of the libraries used.
 - Interactive **badges** for every tool.
 - Explanation of **RAG (Retrieval Augmented Generation)** implementation.
+  
+<img width="1866" height="805" alt="image" src="https://github.com/user-attachments/assets/5cfe8300-48ed-4311-ac04-284e58ef6be6" />
+<img width="1589" height="714" alt="image" src="https://github.com/user-attachments/assets/22049204-4975-42e7-9ce5-4c4b0447157a" />
+<img width="1588" height="781" alt="image" src="https://github.com/user-attachments/assets/65287de0-4639-4957-9b1d-986d9e1c1ac4" />
+<img width="1611" height="729" alt="image" src="https://github.com/user-attachments/assets/e8be6c83-5abb-4c80-a1d1-ddd4aa96b25c" />
 
-### **Tab 3: 📊 Architecture & Design**
+### **Tab 4: 📐 HLD & LLD**
+- 📐 Design & Architecture Specification : Comprehensive documentation covering Software Requirements (SRS), High-Level Design (HLD), and Low-Level Design (LLD).
+- 📝 1. Software Requirements Specification (SRS)
+-m🏗️ 2. High Level Design (HLD)
+- ⚙️ 3. Low Level Design (LLD)
+  
+<img width="1860" height="804" alt="image" src="https://github.com/user-attachments/assets/65ab79ad-c654-4ae0-82cc-27e7d76beca3" />
+<img width="1609" height="791" alt="image" src="https://github.com/user-attachments/assets/d984d711-632a-4e30-8bed-f5bcaf8a2036" />
+<img width="1586" height="769" alt="image" src="https://github.com/user-attachments/assets/466a38a0-8a88-45df-8c1d-20e2b46f6fb4" />
+<img width="1608" height="632" alt="image" src="https://github.com/user-attachments/assets/b0e66f94-9c74-4da8-b538-8828a06c75d1" />
+<img width="1619" height="734" alt="image" src="https://github.com/user-attachments/assets/b73249d7-abb6-47ff-804c-e5068f1b6a33" />
+
+### **Tab 5: 📊 Architecture & Design**
 - High-Level Design (HLD) & Low-Level Design (LLD).
 - Interactive **Graphviz** flowcharts showing data movement between Frontend -> API -> Database.
+  
+<img width="1847" height="772" alt="image" src="https://github.com/user-attachments/assets/9b5e43de-d334-4a33-9249-2b17a85c811a" />
+<img width="1339" height="714" alt="image" src="https://github.com/user-attachments/assets/af1636fe-404e-428b-b6a6-991273ea3287" />
+<img width="1365" height="589" alt="image" src="https://github.com/user-attachments/assets/7dd249d8-58e5-4722-b388-1b03be0d20a6" />
+<img width="1586" height="729" alt="image" src="https://github.com/user-attachments/assets/5c1e42b2-2c84-49bf-8d22-d854d8795a05" />
+<img width="1611" height="757" alt="image" src="https://github.com/user-attachments/assets/17728d73-df8c-40f7-9e2e-88d71e5b21f5" />
+<img width="1608" height="732" alt="image" src="https://github.com/user-attachments/assets/4b6456ae-98f1-485c-a7ed-2118d4d9b06c" />
 
-### **Tab 4: 📋 System Logs**
+
+### **Tab 6: 📋 System Logs**
 - **Live Event Feed:** See backend logs in the frontend.
 - **Filters:** Filter by `Error`, `Success`, or specific `Agent`.
 - **Export:** Download logs as `CSV` or `TXT` for auditing.
+
+<img width="1842" height="807" alt="image" src="https://github.com/user-attachments/assets/63c48c96-9675-4569-82f7-22006d3e5249" />
+<img width="1603" height="784" alt="image" src="https://github.com/user-attachments/assets/f80a51ba-79c8-4de2-b49c-b87f8b2068de" />
+<img width="1647" height="736" alt="image" src="https://github.com/user-attachments/assets/95b44552-b4f8-4dbb-a518-9a5d16c1c9c0" />
 
 ---
 
