@@ -121,7 +121,7 @@ if st.button("🚀 Analyze Insights"):
                                     fig = px.bar(df, template="plotly_dark")
                                 
                                 if fig:
-                                    st.plotly_chart(fig, use_container_width=True)
+                                    st.plotly_chart(fig, use_container_width=True, key="dashboard_main_chart")
                                     
                             except Exception as viz_err:
                                 st.warning(f"Default visualization failed: {viz_err}")
