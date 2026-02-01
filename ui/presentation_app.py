@@ -628,7 +628,7 @@ with tab1:
                     
                 response = requests.post("http://localhost:8000/ask", json={
                     "tenant_id": "t1", "user_id": "u1", "question": q, "history": history_context
-                }, timeout=3)
+                }, timeout=10)
             except (requests.exceptions.ConnectionError, requests.exceptions.Timeout):
                 # Fallback to Direct Agent Execution (Streamlit Cloud mode)
                 log_event("Backend Unavailable", "Running agents locally in Streamlit")
