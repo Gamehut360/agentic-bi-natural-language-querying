@@ -42,8 +42,9 @@
 
 - **Note:** The live demo is hosted on Streamlit Cloud. It provides a full read-only experience of the platform, allowing you to ask queries and visualize data instantly.
   
-- **UI Walkthrough** 
-  ![Project Demo Walkthrough](https://github.com/Ratnesh-181998/agentic-bi-natural-language-querying/blob/main/UI_Walkthrough.gif)
+- **UI Walkthrough**
+  
+![Project Demo Walkthrough](https://github.com/Ratnesh-181998/agentic-bi-natural-language-querying/blob/main/UI_Walkthrough.gif)
 
 
 ---
