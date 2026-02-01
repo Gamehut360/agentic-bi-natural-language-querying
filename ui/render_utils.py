@@ -7,8 +7,6 @@ def render_data_results(data, turn_index=0):
     # Display Results (Full Width)
     kpis = data.get("kpis", {})
     
-    # ... previous code ...
-    
     # Metrics Row (Full Width)
     m1, m2, m3 = st.columns(3)
     
@@ -77,11 +75,9 @@ def render_data_results(data, turn_index=0):
     
     with c1:
         if not df.empty:
-            # Identify numeric and categorical columns
             num_cols = df.select_dtypes(include=['number']).columns.tolist()
             cat_cols = df.select_dtypes(include=['object']).columns.tolist()
             
-            # Style adjustment for Plotly
             chart_theme = {
                 "layout": {
                     "paper_bgcolor": "rgba(0,0,0,0)",
@@ -93,8 +89,6 @@ def render_data_results(data, turn_index=0):
 
             if len(df) == 1 and num_cols:
                 if len(num_cols) > 1:
-                    # CASE: Single row with multiple metrics (e.g. YTD vs Last Year)
-                    # Create a comparison bar chart
                     comparison_df = df[num_cols].T.reset_index()
                     comparison_df.columns = ['Metric', 'Value']
                     comparison_df['Metric'] = comparison_df['Metric'].str.replace('_', ' ').str.title()
@@ -104,16 +98,12 @@ def render_data_results(data, turn_index=0):
                     fig.update_layout(chart_theme["layout"], title="Comparison Analysis")
                     st.plotly_chart(fig, use_container_width=True, key=f"chart_comparison_{turn_index}")
                 elif len(num_cols) == 1:
-                    # CASE: Truly one single value
                     val = df[num_cols[0]].iloc[0]
                     col_name = num_cols[0].replace('_', ' ').title()
-                    
-                    # Format as currency
                     if any(x in col_name.lower() for x in ['revenue', 'sales', 'total', 'price', 'amount']):
                         formatted_val = f"${val:,.2f}"
                     else:
                         formatted_val = f"{val:,.2f}" if isinstance(val, (int, float)) else val
-                        
                     st.markdown(f"""
                     <div style='background: linear-gradient(135deg, rgba(52, 152, 219, 0.15) 0%, rgba(41, 128, 185, 0.05) 100%); 
                                 padding: 40px; border-radius: 15px; border: 1px solid rgba(52, 152, 219, 0.2); 
@@ -141,15 +131,12 @@ def render_data_results(data, turn_index=0):
                 st.plotly_chart(fig, use_container_width=True, key=f"chart_bar_{turn_index}")
 
             elif cat_cols and not num_cols:
-                # CASE: Only categorical data (e.g. list of Departments) -> Show Frequency Plot
                 viz_df = df.copy()
                 target_col = cat_cols[0]
                 viz_df = viz_df[target_col].value_counts().reset_index()
                 viz_df.columns = [target_col, 'Count']
-                
                 fig = px.bar(viz_df, x='Count', y=target_col, orientation='h',
-                           color='Count', color_continuous_scale='Viridis',
-                           text_auto=True)
+                           color='Count', color_continuous_scale='Viridis', text_auto=True)
                 fig.update_layout(chart_theme["layout"], title=f"Frequency Distribution: {target_col.title()}")
                 fig.update_layout(showlegend=False)
                 st.plotly_chart(fig, use_container_width=True, key=f"chart_freq_{turn_index}")
@@ -165,17 +152,14 @@ def render_data_results(data, turn_index=0):
     with st.expander("🔍 See Generated SQL & Reasoning"):
         sql_code = data.get("sql", "N/A")
         reasoning_text = data.get("reasoning", "")
-        
         st.markdown(f"**Agent Reasoning:**\n{reasoning_text}")
         st.markdown("---")
         st.markdown("**Generated SQL Query:**")
         st.code(sql_code, language="sql")
         
-        # Add download buttons for the current data and SQL
         if not df.empty:
             st.divider()
             d_col1, d_col2 = st.columns(2)
-            
             with d_col1:
                 csv = df.to_csv(index=False).encode('utf-8')
                 st.download_button(
@@ -186,7 +170,6 @@ def render_data_results(data, turn_index=0):
                     use_container_width=True,
                     key=f"dl_csv_{turn_index}"
                 )
-            
             with d_col2:
                 st.download_button(
                     label="📜 Download SQL Query",
