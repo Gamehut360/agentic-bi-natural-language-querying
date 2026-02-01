@@ -85,10 +85,68 @@ This project leverages a **Multi-Agent Swarm Architecture** orchestrated by **La
 | **LLM Framework** | **LangChain** | Prompt engineering & Tool abstractions. |
 | **AI Models** | **Groq (Llama 3)** | Ultra-fast inference for real-time SQL generation. |
 | **Memory** | **Mem0 (mem0ai)** | Long-term user preference & session storage. |
-| **Database** | **SQLite / SQLAlchemy** | Relational data storage with ORM. |
+| **Database** | **SQLite / SQLAlchemy and FAISS , VectorDB** | Relational data storage with ORM. |
 | **Task Scheduling** | **APScheduler** | Background jobs and reporting. |
 | **Visualization** | **Plotly Express** | Dynamic, interactive data visualizations. |
 
+---
+
+# 🚀 **Agentic BI SaaS: The Conversational Analytics**
+
+How businesses interact with data.Instead of navigating complex dashboards, users simply ask questions in natural language and AI swarm does the rest.
+
+## **🎯 The Problem**
+Traditional BI tools require SQL expertise,static dashboard configurations, and constant IT dependency.Business users waste hours waiting for reports that could be answered instantly.
+
+## **💡The Solution: Multi-Agent AI Architecture**
+
+I built an **Enterprise-Grade Agentic BI Platform** using cutting-edge AI orchestration. Here's how it works:
+
+**🧠 6-Agent Cognitive Swarm (LangGraph Orchestrated):**
+
+1. **Metadata Agent** → Analyzes user intent & schema mapping
+2. **RAG Agent** → Retrieves certified business definitions from Vector DB
+3. **SQL Agent** → Generates production-ready SQL queries (99% accuracy)
+4. **Impact Agent** → Governance layer; blocks unsafe queries & PII exposure
+5. **Execute Agent** → Sandboxed SQL execution
+6. **BI Agent** → Synthesizes results into intelligent visualizations
+   
+## **🛠️ Tech Stack (Production-Grade)**
+
+**AI/ML & NLP Layer:**
+- **LangGraph** (Multi-Agent Orchestration)
+- **LangChain** (Prompt Engineering Framework)
+- **Groq** (Llama 3.3 - 70B) for ultra-fast inference
+- **HuggingFace** (Text embeddings & transformer models)
+- **FuzzyWuzzy** (NLP fuzzy string matching for typo-tolerant queries)
+- **Mem0** (Long-term AI memory for user preferences)
+  
+**Vector & Retrieval:**
+- **FAISS** (Facebook AI Similarity Search - Vector DB)
+- **RAG Pipeline** (Retrieval Augmented Generation)
+- **MCP** (Model Context Protocol for agent-tool communication)
+  
+**Backend:**
+- **FastAPI** (Async REST API)
+- **SQLAlchemy** + SQLite/PostgreSQL
+- **APScheduler** (Background task management)
+  
+**Frontend:**
+- **Streamlit/Next.js** (Interactive UI with Real-time Agent Logs)
+- **Plotly** (Dynamic, responsive visualizations)
+  
+**DevOps:**
+- **Docker-ready** containers
+- **CI/CD** pipeline (GitHub Actions)
+  
+## **🔐Enterprise-Ready Features**
+- **Self-Healing Pipeline**:Auto-corrects SQL errors using reflexion loops
+- **Typo-Resilient**:FuzzyWuzzy NLP handles misspelled queries intelligently
+- **Semantic Search**:FAISS-powered vector similarity for context retrieval
+- **Governance**:Built-in RBAC & PII detection
+- **Memory**:Learns user preferences across sessions
+- **Scalability**:SaaS & On-Prem deployment ready
+  
 ---
 
 ## 🚀 **Key Features**
