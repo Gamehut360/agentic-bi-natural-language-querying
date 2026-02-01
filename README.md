@@ -32,11 +32,18 @@
 
 ---
 
-## 📍 **Live Demo**
+## 🌐🎬 Live Demo
+🚀 **Try it now:**
 
-🌟 **Try the Live Application Here:** [**Agentic BI SaaS Platform**](https://agentic-bi-natural-language-querying-xav6gvp2wxnpnn7q9caarf.streamlit.app/)
 
-> **Note:** The live demo is hosted on Streamlit Cloud. It provides a full read-only experience of the platform, allowing you to ask queries and visualize data instantly.
+- **Streamlit Profile** -[[Link]](https://share.streamlit.io/user/ratnesh-181998)
+  
+- 🌟 **Project Demo Try the Live Application Here:** [**Agentic BI SaaS Platform**](https://agentic-bi-natural-language-querying-xav6gvp2wxnpnn7q9caarf.streamlit.app/)
+
+- **Note:** The live demo is hosted on Streamlit Cloud. It provides a full read-only experience of the platform, allowing you to ask queries and visualize data instantly.
+  
+-![Project Demo Walkthrough](https://github.com/Ratnesh-181998/agentic-bi-natural-language-querying/blob/main/UI_Walkthrough.gif)
+
 
 ---
 
