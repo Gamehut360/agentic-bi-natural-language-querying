@@ -634,25 +634,32 @@ with tab1:
                 log_event("Backend Unavailable", "Running agents locally in Streamlit")
                 
                 try:
-                    # Import the LangGraph workflow directly
+                    # Import the LangGraph orchestration directly
                     import sys
                     sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-                    from app.langgraph.workflow import run_workflow
+                    from app.langgraph.graph import bi_graph
+                    from app.billing.metering import record_usage
                     
-                    # Run agents directly
-                    result = run_workflow({
+                    # Run agents directly using the compiled graph
+                    result = bi_graph.invoke({
                         "tenant_id": "t1",
                         "user_id": "u1", 
                         "question": q,
                         "history": history_context
                     })
                     
-                    response = MockResponse(result)
+                    # Record usage
+                    record_usage("t1", "query", 1)
+                    
+                    # Extract response
+                    response = MockResponse(result.get("response", result))
                     log_event("Local Agents Success", f"Processed query: {q[:50]}...")
                     
                 except Exception as agent_error:
                     # If agents also fail, show error to user
-                    log_event("Agent Error", str(agent_error))
+                    import traceback
+                    error_details = traceback.format_exc()
+                    log_event("Agent Error", f"{str(agent_error)}\n{error_details[:200]}")
                     st.error(f"⚠️ **Error running AI agents:** {str(agent_error)}")
                     st.session_state.show_result = False
                     return
