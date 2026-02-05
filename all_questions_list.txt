@@ -30,3 +30,58 @@
 4. Chart: 'Expense Audit' -> "Identify all non-tax-deductible expenses greater than $5000 in the IT department."
 5. Chart: 'Warehouse Load' -> "Show the distribution of inventory quantity across all warehouse locations."
 6. Chart: 'Cust Satisfaction' -> "Calculate the average customer satisfaction score for bug-related tickets."
+
+
+>>>>>>>>>>>>>>>>>>
+
+📊 If it’s connected to a dataset (like sales / HR / finance etc.)
+
+Try asking:
+
+“Show revenue trends by month for the last 12 months.”
+
+“What are the top 5 products by sales volume?”
+
+“Compare annual profit between 2023 and 2024.”
+
+“List the regions with the highest customer growth.”
+
+“What is the average deal size per salesperson?”
+
+📈 If it’s a business intelligence dataset
+
+“Display a bar chart of sales by product category.”
+
+“Which salesperson closed the most deals this quarter?”
+
+“Show a time series of total orders per month.”
+
+“What is the percentage change in customer churn year over year?”
+
+“Filter data to show only customers from India and Germany.”
+
+🧠 More advanced / analytical
+
+“What factors are most correlated with revenue increase?”
+
+“Identify products with declining sales over the last six months.”
+
+“Predict next month’s sales based on historical data.”
+
+“Generate an executive summary of key performance metrics.”
+
+“What are the outliers in sales performance?”
+
+🤖 Natural language / conversational
+
+“Show me sales performance for last quarter.”
+
+“Give me a dashboard with profits, expenses, and revenue.”
+
+“Which region has the lowest customer retention rate?”
+
+“Highlight trends in customer acquisition costs.”
+
+“Compare last year’s and this year’s EBITDA.”
+
+
